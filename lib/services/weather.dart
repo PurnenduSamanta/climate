@@ -1,7 +1,7 @@
 import 'package:climate/services/location.dart';
 import 'package:climate/services/networking.dart';
 
-const apiKey="c66ae6b2de73a95fec787de9f197ed7f";
+const apiKey="Enter Your Own API key found on https://openweathermap.org/";
 class WeatherModel {
 
   Future<dynamic> getLocationWeather() async
